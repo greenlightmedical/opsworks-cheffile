@@ -1,12 +1,8 @@
 site "https://supermarket.getchef.com/api/v1"
 
-#cookbook 'nginx', github: 'swrobel/opsworks-cookbooks', path: 'nginx', ref: 'master-chef-11.10'
-#cookbook 'unicorn', github: 'swrobel/opsworks-cookbooks', path: 'unicorn', ref: 'master-chef-11.10'
 cookbook 'newrelic-sysmond', '~> 1.4.0'
-cookbook 'whenever', github: 'freerunningtech/frt-opsworks-cookbooks', path: 'whenever'
 cookbook 'awscli', github: 'shlomoswidler/awscli'
-cookbook 'opsworks_custom_env', github: 'CultConspiracy/opsworks_custom_env'
-cookbook 'sidekiq', github: 'CultConspiracy/polydice-cookbooks', path: 'sidekiq'
-cookbook 'opsworks-sidekiq', github: 'brainyatom/opsworks-sidekiq'
+cookbook 'opsworks_custom_env', github: 'greenlightmedical/opsworks_custom_env'
+cookbook 'sidekiq', github: 'greenlightmedical/polydice-cookbooks', path: 'sidekiq'
 cookbook 'mosh'
 

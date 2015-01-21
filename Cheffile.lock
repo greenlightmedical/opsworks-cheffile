@@ -14,6 +14,21 @@ SITE
       yum (~> 3.0)
 
 GIT
+  remote: https://github.com/CultConspiracy/opsworks_custom_env
+  ref: master
+  sha: 1c0ce60bbfdc7d967e4f62c051f6dcea71bb1476
+  specs:
+    opsworks_custom_env (0.3.0)
+
+GIT
+  remote: https://github.com/CultConspiracy/polydice-cookbooks
+  path: sidekiq
+  ref: master
+  sha: 34a2a9763e4fcbdad811d86ccd941accbc0a6571
+  specs:
+    sidekiq (0.1.0)
+
+GIT
   remote: https://github.com/brainyatom/opsworks-sidekiq
   ref: master
   sha: df1095843025d507904aaea83a097748db421827
@@ -24,24 +39,9 @@ GIT
   remote: https://github.com/freerunningtech/frt-opsworks-cookbooks
   path: whenever
   ref: master
-  sha: a042a0b7d1e351eca3f3e73d032fe660d88100c7
+  sha: a775a661c71a976f7e71a6901c8b8bd9a5f1ed48
   specs:
     whenever (0.1.0)
-
-GIT
-  remote: https://github.com/ruvixx/opsworks_custom_env
-  ref: master
-  sha: 65c30f7d4f40793b60d869c85a81f3359cf0aa82
-  specs:
-    opsworks_custom_env (0.3.0)
-
-GIT
-  remote: https://github.com/ruvixx/polydice-cookbooks
-  path: sidekiq
-  ref: master
-  sha: 57cf0ff732ee84add6c36b91d85ebbd196a76d20
-  specs:
-    sidekiq (0.1.0)
 
 GIT
   remote: https://github.com/shlomoswidler/awscli
