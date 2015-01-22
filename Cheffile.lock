@@ -14,34 +14,19 @@ SITE
       yum (~> 3.0)
 
 GIT
-  remote: https://github.com/CultConspiracy/opsworks_custom_env
+  remote: https://github.com/greenlightmedical/opsworks_custom_env
   ref: master
-  sha: 1c0ce60bbfdc7d967e4f62c051f6dcea71bb1476
+  sha: 7bc0a199a89518ecd444eaec909c90d814473c4b
   specs:
     opsworks_custom_env (0.3.0)
 
 GIT
-  remote: https://github.com/CultConspiracy/polydice-cookbooks
+  remote: https://github.com/greenlightmedical/polydice-cookbooks
   path: sidekiq
   ref: master
-  sha: 34a2a9763e4fcbdad811d86ccd941accbc0a6571
+  sha: c1ad33849ade2872ff5f318a631ffca46f571dad
   specs:
     sidekiq (0.1.0)
-
-GIT
-  remote: https://github.com/brainyatom/opsworks-sidekiq
-  ref: master
-  sha: df1095843025d507904aaea83a097748db421827
-  specs:
-    opsworks-sidekiq (1.0.0)
-
-GIT
-  remote: https://github.com/freerunningtech/frt-opsworks-cookbooks
-  path: whenever
-  ref: master
-  sha: a775a661c71a976f7e71a6901c8b8bd9a5f1ed48
-  specs:
-    whenever (0.1.0)
 
 GIT
   remote: https://github.com/shlomoswidler/awscli
@@ -54,8 +39,6 @@ DEPENDENCIES
   awscli (>= 0)
   mosh (>= 0)
   newrelic-sysmond (~> 1.4.0)
-  opsworks-sidekiq (>= 0)
   opsworks_custom_env (>= 0)
   sidekiq (>= 0)
-  whenever (>= 0)
 
