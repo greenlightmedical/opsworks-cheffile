@@ -6,12 +6,12 @@ This will allow you to use [librarian-chef](https://github.com/applicationsonlin
 1. `bundle`
 1. `thor list`
 
-## Why not Berkshelf?
-I actually started out using [Berkshelf](https://github.com/berkshelf/berkshelf) but was frustrated by the following things:
+## How to use
 
-1. Berkshelf installs `recommends` depencies and there is no way to disable this. For example, when using the newrelic cookbook, you get php, python, ms_dotnot4 ... and I had to fork Berkshelf to avoid this
-1. Berkshelf maintains a global cache of cookbooks, and I wanted something that was self-contained
+1. `thor cookbooks`
+1. `thor cookbooks:install`
+1. `thor cookbooks:package`
+1. `thor upload ACCESS_KEY SECRET_KEY BUCKET [REGION]`
 
-# Inspiration
-
-Thanks to [ryansch](https://github.com/ryansch) for [opsworks-control-tower](https://github.com/aceofsales/opsworks-control-tower)
+### Notes
+- `thor cookbooks:update` does not seem to function properly -- if needing to reset or update pkgs, just remove ./cookbooks and ./tmp directories and start over

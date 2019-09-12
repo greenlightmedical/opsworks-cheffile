@@ -65,7 +65,7 @@ GEM
     method_source (0.9.2)
     mime-types (1.25.1)
     mini_portile (0.5.3)
-    minitar (0.8)
+    minitar (0.9)
     mixlib-authentication (1.4.2)
     mixlib-cli (1.7.0)
     mixlib-config (2.2.18)
@@ -115,8 +115,8 @@ PLATFORMS
 DEPENDENCIES
   chef (~> 11.16.4)
   fog
-  librarian
-  librarian-chef (~> 0.0.4)
+  librarian (~> 0.1.1)
+  librarian-chef
   minitar
   thor
   unf

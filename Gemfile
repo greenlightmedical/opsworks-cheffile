@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
-gem 'librarian-chef', '~> 0.0.4'
-gem "librarian"
+gem 'librarian-chef'
+gem "librarian", '~> 0.1.1'
 gem 'chef', '~> 11.16.4'
 gem 'fog'
 gem 'thor'
